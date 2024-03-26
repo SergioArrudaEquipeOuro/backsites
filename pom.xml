@@ -71,6 +71,15 @@
 					</image>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version> <!-- ou uma versão que você saiba que é compatível -->
+				<configuration>
+					<release>17</release>
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
 
