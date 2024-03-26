@@ -71,6 +71,14 @@
 					</image>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version> <!-- ou uma versão mais recente que suporte --release -->
+				<configuration>
+					<release>17</release> <!-- Especifica a versão do Java para a qual compilar -->
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
