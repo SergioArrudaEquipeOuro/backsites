@@ -42,11 +42,11 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		 <dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -74,12 +74,14 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version> <!-- ou uma versão mais recente que suporte --release -->
+				<version>3.8.1</version>
 				<configuration>
-					<release>17</release> <!-- Especifica a versão do Java para a qual compilar -->
+					<release>17</release> 
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+
+
 
 </project>
